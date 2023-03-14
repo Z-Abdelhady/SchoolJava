@@ -25,24 +25,24 @@ public class App {
 
         if(userType.equals("admin")) {
             // Afficher le menu pour les utilisateurs administrateurs
-            System.out.println("Bienvenue, utilisateur administrateur.");
-            System.out.println("1. Ajouter un nouvel utilisateur.");
-            System.out.println("2. Supprimer un utilisateur existant.");
-            System.out.println("3. Modifier les autorisations d'un utilisateur.");
-        } else if(userType.equals("membre")) {
-            // Afficher le menu pour les utilisateurs membres
+            System.out.println("Bienvenue, utilisateur administrateur");
+            System.out.println("1. Ajouter un nouvel utilisateur");
+            System.out.println("2. Supprimer un utilisateur existant");
+            System.out.println("3. Modifier les autorisations d'un utilisateur");
+        } else if(userType.equals("etudiant")) {
+            //Afficher le menu pour les utilisateurs membres.
             System.out.println("Bienvenue, utilisateur membre.");
-            System.out.println("1. Afficher votre profil.");
-            System.out.println("2. Modifier votre profil.");
-            System.out.println("3. Consulter les dernières nouvelles.");
+            System.out.println("1. Afficher votre profil");
+            System.out.println("2. Modifier votre profil");
+            System.out.println("3. Consulter les dernières nouvelles");
         } else {
             // Afficher un message d'erreur si le type d'utilisateur est invalide
-            System.out.println("Type d'utilisateur invalide. Veuillez réessayer.");
+            System.out.println("Type d'utilisateur invalide. Veuillez réessayer");
         }
         //Capturer le choix de l'utilisateur
 
         //Admin: Capturer l'index de l'etudiant
-
+        String Admincap = (int indexeEtudiant);
         //User: Trouver son indexe
     }
 
